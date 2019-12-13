@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/FavoriteWidget.dart';
 
 void main() => runApp(MyApp());
 
@@ -37,11 +38,7 @@ class MyApp extends StatelessWidget {
             ),
           ),
           /*3*/
-          Icon(
-            Icons.star,
-            color: Colors.red[500],
-          ),
-          Text('41'),
+          FavoriteWidget()
         ],
       ),
     );
